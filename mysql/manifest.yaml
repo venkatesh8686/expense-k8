@@ -26,7 +26,6 @@ spec:
         image: venki8686/mysql:v1
 
 ----
-
 kind: Service
 apiVersion: v1
 metadata:
