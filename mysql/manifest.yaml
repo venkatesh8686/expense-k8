@@ -24,6 +24,7 @@ spec:
       containers:
       - name: mysql
         image: venki8686/mysql:v1
+
 ----
 
 kind: Service
