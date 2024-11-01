@@ -35,7 +35,7 @@ spec:
         image: venki8686/backend:v1
         envFrom:
         - configMapRef:
-          name: backend
+            name: backend
 ---
 kind: Service
 apiVersion: v1
