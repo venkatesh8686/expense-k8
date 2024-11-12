@@ -33,14 +33,14 @@ spec:
       containers:
       - name: backend
         image: venki8686/backend:v1
-        # resources: 
-        #   requests: 
-        #     cpu: 100m
-        #     memory: 128mi
-        #   # limits is greter than or equal to request
-        #   limits:
-        #     cpu: 100m
-        #     memory: 128mi 
+        resources: 
+          requests: 
+            cpu: 100m
+            memory: 128mi
+          # limits is greter than or equal to request
+          limits:
+            cpu: 100m
+            memory: 128mi 
         envFrom:
         - configMapRef:
             name: backend
