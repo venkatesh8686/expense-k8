@@ -25,6 +25,14 @@ spec:
       containers:
       - name: frontend
         image: venki8686/frontend:v1
+        resources: 
+          requests: 
+            cpu: 100m
+            memory: 128Mi
+          # limits is greter than or equal to request
+          limits:
+            cpu: 100m
+            memory: 128Mi
         
 ---
 kind: Service
