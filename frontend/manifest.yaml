@@ -32,8 +32,7 @@ spec:
           # limits is greter than or equal to request
           limits:
             cpu: 100m
-            memory: 128Mi
-        
+            memory: 128Mi       
 ---
 kind: Service
 apiVersion: v1
